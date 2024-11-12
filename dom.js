@@ -16,4 +16,3 @@ function handleButtonClick() {
     // Render the result on the page
     document.getElementById('result').textContent = resultText;
 }
-jrerbwrbifiiikbiu
