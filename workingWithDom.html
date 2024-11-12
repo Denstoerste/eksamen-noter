@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age and Name Form</title>
+</head>
+<body>
+<h1>Enter your information</h1>
+
+<!-- Input fields for name and age -->
+<input type="text" id="name" placeholder="Enter your name">
+<input type="number" id="age" placeholder="Enter your age">
+<button onclick="handleButtonClick()">Submit</button>
+
+<p id="result"></p>
+
+<script>
+    function handleButtonClick() {
+        // Get values from the input fields
+        const name = document.getElementById('name').value;
+        const age = parseInt(document.getElementById('age').value);
+
+        // Log the message to the console
+        console.log("clicked on button");
+
+        // Log the entered name and age
+        console.log("Name: " + name);
+        console.log("Age: " + age);
+
+        // Check the age and render corresponding message
+        const resultText = age > 40 ? "You are old" : "You are young";
+
+        // Render the result on the page
+        document.getElementById('result').textContent = resultText;
+    }
+</script>
+</body>
+</html>
