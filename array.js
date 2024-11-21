@@ -24,3 +24,14 @@ console.log("sum of all numbers", sum);
 
 const greaterThenTwenty = numbers.filter((number) => number > 20);
 console.log(greaterThenTwenty);
+
+
+const sumArrayNumbers = [1, 2, 3, 4];
+function sumArray(numbers) {
+    let sum = 0;
+    for (let i = 0; 1 < numbers.length; i++) {
+        sum += numbers[i];
+    }
+
+    return sum;
+}
