@@ -26,6 +26,39 @@ const greaterThenTwenty = numbers.filter((number) => number > 20);
 console.log(greaterThenTwenty);
 
 
+const fruitbasket = ["apple","banana","cherry"];
+
+function addfruit1(fruit){
+    fruitbasket.push(fruit);
+    console.log(`${fruit} has been added`);
+}
+
+function removefruit(fruit){
+    const index = fruitbasket.indexOf(fruit);
+    if (index !== -1) {
+        fruitbasket.splice(index, 1);
+        console.log(`${fruit} has been removed`);
+    } else {
+        console.log(`fruit not found`);
+    }
+}
+
+function countfruit(){
+    return fruitbasket.length;
+}
+
+function listfruits(){
+    console.log("Fruits in the basket:" + fruitbasket.join(", "));
+}
+
+addfruit1("grape");
+addfruit("orange");
+removefruit("banana");
+listfruits();
+console.log("Total fruits in the basket: " + countfruit());
+
+
+
 const sumArrayNumbers = [1, 2, 3, 4];
 function sumArray(numbers) {
     let sum = 0;
