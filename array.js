@@ -1,8 +1,8 @@
 const favoriteFruits = ['apple','banana','orange', 'dragonfruit', 'melon'];
 
-function addfruit(fruistArray, newFruits) {
-    fruistArray.push(newFruits);
-    return fruistArray;
+function addfruit(fruitArray, newFruits) {
+    fruitArray.push(newFruits);
+    return fruitArray;
 }
 
 const updatedFruitArray = addfruit(favoriteFruits, "Cherry");
@@ -57,3 +57,15 @@ removefruit("banana");
 listfruits();
 console.log("Total fruits in the basket: " + countfruit());
 
+
+
+function sumArray(numbers) {
+    let sum = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
+    }
+    return sum;
+}
+
+const sumArrayNumbers = [1, 2, 3, 4];
+console.log(sumArray(sumArrayNumbers)); // Logs the sum of the array
