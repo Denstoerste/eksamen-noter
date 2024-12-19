@@ -1,5 +1,5 @@
 function stringRepeater(string, number) {
     return string.repeat(number);
 }
-const result = stringRepeater(" bøsse",4 )
+const result = stringRepeater(" hej",4 )
 console.log(result)
