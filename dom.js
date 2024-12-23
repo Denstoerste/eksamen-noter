@@ -13,6 +13,9 @@ function handleButtonClick() {
     // Check the age and render corresponding message
     const resultText = age > 40 ? "You are old" : "You are young";
 
+    // Log the result to the console
+    console.log(resultText);
+
     // Render the result on the page
     document.getElementById('result').textContent = resultText;
 }
