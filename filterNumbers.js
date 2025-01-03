@@ -5,7 +5,7 @@ function filterNumbers(numbers, threshold) {
 }
 
 const numbers = [10, 25, 3, 50];
-const threshold = 20;
+const threshold = 9;
 const result = filterNumbers(numbers,threshold);
 
 console.log(result);
