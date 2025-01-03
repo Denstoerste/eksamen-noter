@@ -9,3 +9,4 @@ document.querySelector('#voteDown').addEventListener("click", () => {
     score--;
     document.querySelector('#score').textContent = `Score: ${score}`;
 });
+

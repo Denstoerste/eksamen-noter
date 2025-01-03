@@ -69,3 +69,4 @@ function sumArray(numbers) {
 
 const sumArrayNumbers = [1, 2, 3, 4];
 console.log(sumArray(sumArrayNumbers)); // Logs the sum of the array
+
