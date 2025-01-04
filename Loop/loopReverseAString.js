@@ -7,3 +7,4 @@ for (let i = originalString.length - 1; i >= 0; i--) {
 
 console.log("Original String:", originalString);
 console.log("Reversed String:", reversedString);
+

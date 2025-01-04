@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+#cat-fact {
+    margin: 20px 0;
+    font-size: 1.5em;
+    color: #555;
+}
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ffcccb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff9999;
+}
