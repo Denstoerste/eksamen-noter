@@ -1,5 +1,5 @@
 document.querySelector('#fetchJoke').addEventListener('click', async () => {
-    const jokeContainer = document.getElementById('jokeDisplay');
+    const jokeContainer = document.querySelector('#jokeDisplay');
 
     try {
         const response = await fetch('https://official-joke-api.appspot.com/random_joke');
