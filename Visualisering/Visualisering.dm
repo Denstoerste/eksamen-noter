@@ -11,7 +11,7 @@ Hjernen har en tendens til at fylde huller i visuelle billeder, så vi opfatter 
 Eksempel: Hvis du ser en cirkel med små huller i omridset, vil din hjerne stadig se det som en hel cirkel.
 
 4. Loven om Sammenhæng (Continuity)
-Linjer og kurver opfattes som fortsættende i en glat bane frem for at skifte retning abrupt.
+Linjer og kurver opfattes som forsættende i en glat bane frem for at skifte retning abrupt.
 Eksempel: Hvis to krydsende linjer mødes, vil vi opfatte dem som separate, glidende linjer snarere end fire individuelle segmenter.
 
 5. Loven om Fælles Skæbne (Common Fate)
