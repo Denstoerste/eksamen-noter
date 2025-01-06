@@ -5,8 +5,8 @@ const chart = new Chart(ctx, {
         labels: ["Danmark","Sweeden","Uganda","hat"],
         datasets: [{
             label:'Danmark',
-            data: [1000,900,500],
-            backgroundColor: ["blue","grey","red"]
+            data: [1000,900,500,1000],
+            backgroundColor: ["blue","grey","red","pink"]
         }
         ]
     },
