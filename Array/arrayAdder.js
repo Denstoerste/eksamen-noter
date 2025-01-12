@@ -1,3 +1,4 @@
+/*
 function arrayAdder(numbersArray, numToAdd) {
     // Add the number to each element in the array
     const updatedArray = numbersArray.map(number => number + numToAdd);
@@ -13,9 +14,18 @@ function arrayAdder(numbersArray, numToAdd) {
     // Return the updated array
     return updatedArray;
 }
-
+*/
+/*
 // Example usage:
 const numbers = [1, 2, 3, 4, 5];
 const addedNumber = 10;
+
 const result = arrayAdder(numbers, addedNumber);
 console.log(result);
+*/
+const numbers = [1, 2, 3];
+const newNumber = 4;
+
+numbers.push(newNumber);
+
+console.log(numbers); // Output: [1, 2, 3, 4]

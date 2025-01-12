@@ -8,7 +8,7 @@ function fetchDogImage() {
         .then(response => response.json()) // Parse the JSON response
         .then(data => {
             // Clear any previous image
-            container.innerHTML = '';
+            container.textContent = '';
 
             // Create an img element
             const img = document.createElement('img');
