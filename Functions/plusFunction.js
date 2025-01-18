@@ -15,7 +15,7 @@ console.log(sum);
 
 
 
-
+// multiply numbers
 function multiply (number3, number4 ){
 return number3 * number4;
 }
