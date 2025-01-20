@@ -43,3 +43,11 @@ position(position)
 grouping(gruppering)
 color hue(anden farve til at fange users blik)
 color intensity(fjern farve fra det der ikke skal sættes fokus på)
+
+
+
+1. Showing eller telling
+2. målgruppe og budskab
+3. gestalt love
+4. preattentive attributes
+5. evt hormoner
