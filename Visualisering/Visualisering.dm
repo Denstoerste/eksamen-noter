@@ -25,6 +25,21 @@ Eksempel: Hvis en gruppe fugle flyver i samme retning, ser vi dem som en samlet 
 
 
 
-HUSK MÅLGRUPPE OG BUDSKAB DIN FUCKER
-FONT
-PREATTENTIVE ATTRIBUTES
+MÅLGRUPPE OG BUDSKAB
+
+FONT:
+sans-serif: most or often the better choise. it looks cleaner and are often easier to skim through.
+serif: brings the reader into a reading flow - better for long texts like novels or newspaper articles.
+
+PREATTENTIVE ATTRIBUTES: helps to guide the user down the most useful paths.
+its infomation we can process visually almost immediately, before sending the info to the attention processing parts of our brain.
+Length(længde)
+width(bredde)
+orientation(orientering)
+size(størrelse)
+shape(form)
+enclosure(indhegning)
+position(position)
+grouping(gruppering)
+color hue(anden farve til at fange users blik)
+color intensity(fjern farve fra det der ikke skal sættes fokus på)

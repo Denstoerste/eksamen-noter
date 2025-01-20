@@ -1,6 +1,6 @@
 // Select the button and the paragraph to display the fact
-const button = document.getElementById('new-fact');
-const factContainer = document.getElementById('cat-fact');
+const button = document.querySelector('#new-fact');
+const factContainer = document.querySelector('#cat-fact');
 
 // Function to fetch and display a random cat fact
 function fetchCatFact() {
@@ -18,5 +18,3 @@ function fetchCatFact() {
 // Add event listener to the button
 button.addEventListener('click', fetchCatFact);
 
-// Fetch a fact when the page loads
-fetchCatFact();

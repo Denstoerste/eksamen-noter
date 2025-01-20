@@ -4,7 +4,7 @@ const chart = new Chart(ctx, {
     data: {
         labels: ["Danmark","Sweeden","Uganda","hat"],
         datasets: [{
-            label:'Danmark',
+            label:'test label',
             data: [1000,900,500,1000],
             backgroundColor: ["blue","grey","red","pink"]
         }
