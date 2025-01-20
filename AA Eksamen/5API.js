@@ -1,5 +1,5 @@
-const button = document.getElementById('fetchDog');
-const container = document.getElementById('dogContainer');
+const button = document.querySelector('#fetchDog');
+const container = document.querySelector('#dogContainer');
 
 function fetchDogImage() {
     fetch('https://dog.ceo/api/breeds/image/random')
